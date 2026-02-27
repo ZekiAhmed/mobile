@@ -93,6 +93,7 @@ interface ThemeContextType {
   colors: ColorScheme;
 }
 
+
 const ThemeContext = createContext<undefined | ThemeContextType>(undefined);
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
